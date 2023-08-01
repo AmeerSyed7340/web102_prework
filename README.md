@@ -26,7 +26,8 @@ Here's a walkthrough of implemented features:
 <img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
+<!-- GIF created with ...   -->
+[ScreenToGif](https://www.screentogif.com/) for Windows
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
@@ -36,7 +37,7 @@ GIF created with ...
 
 Describe any challenges encountered while building the app.
     
-    I faced an issue when I tried to follow the spread operator example. The spread operator in JavaScript only works to distribute elements from the end of an array. Therefore, syntax like let [...others, lastElement] is not valid. It must be in the form let [firstElement, ...others].
+    I faced an issue when I tried to follow the spread operator example. The spread operator in JavaScript seems to only work to distribute elements from the end of an array. Therefore, syntax like let [...others, lastElement] appears to be invalid. It had to be in the form let [firstElement, ...others].
     
 ## License
 
