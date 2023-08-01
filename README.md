@@ -35,7 +35,9 @@ GIF created with ...
 ## Notes
 
 Describe any challenges encountered while building the app.
-
+    
+    I faced an issue when I tried to follow the spread operator example. The spread operator in JavaScript only works to distribute elements from the end of an array. Therefore, syntax like let [...others, lastElement] is not valid. It must be in the form let [firstElement, ...others].
+    
 ## License
 
     Copyright [yyyy] [name of copyright owner]
